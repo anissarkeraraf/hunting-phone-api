@@ -11,10 +11,25 @@
 
 <body>
     <header>
-
+        <h1 class="lg:text-5xl">Phone Hunting</h1>
     </header>
-    <main>
 
+
+
+    <main class="container mx-auto">
+
+        <section  class="bg-gray-100 mt-10 rounded-lg">
+            <div class="p-3 gap-4 lg:pl-[400px]">
+                <input id="input-field" type="text" placeholder="Search..." class="input input-bordered w-full max-w-xs" />
+                <button onclick="searchLoadedPhone()" class="btn btn-active btn-accent">Search</button>
+            </div>
+        </section>
+
+        <section>
+            <div id="phone-container" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+
+            </div>
+        </section>
     </main>
     <script src="js/phone.js"></script>
 </body>
